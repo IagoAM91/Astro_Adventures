@@ -1,0 +1,26 @@
+body {
+    font-family: "Iceland", monospace !important;
+    font-optical-sizing: auto !important;
+    font-size: 20px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+footer{
+    height: 20vh;
+    background-color: black;
+    position:absolute;
+    bottom:0;
+    width: 100%;
+    color: white;
+}
+
+.jost{
+    font-family: "Jost", monospace !important;
+    font-optical-sizing: auto !important;
+    font-weight: 700;
+    font-size: 20px;
+
+}

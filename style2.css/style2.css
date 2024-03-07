@@ -1,0 +1,36 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Iceland";
+}
+
+
+.dragon {
+    width: 60%;
+}
+
+.titulo-dragon {
+    font-size: 40px;
+    text-align: center;
+    font-family: "Jost";
+}
+
+.caracteristicas {
+    font-size: 24px;
+    text-align: center;
+}
+
+.precio {
+    font-size: 40px;
+    text-align: center;
+}
+
+.falcon {
+    height: 450px;
+    width: 60%;
+}
+
+.falcon9 {
+    width: 60%;
+    height: 500px;
+}

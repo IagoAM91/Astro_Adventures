@@ -4,17 +4,11 @@ body {
     font-size: 20px;
 }
 
-h1{
-    font-size: 50px;
-}
-
-footer{
-    height: 20vh;
-    background-color: black;
-    position:absolute;
-    bottom:0;
-    width: 100%;
-    color: white;
+section{
+    background-image: url(nave_fondo.png);
+    background-size:cover;
+    background-position: center; 
+    height: 90vh;
 }
 
 .jost{
@@ -23,4 +17,13 @@ footer{
     font-weight: 700;
     font-size: 20px;
 
+}
+
+.btn-reserva{
+   
+    -ms-transform: skewX(20deg);
+    -webkit-transform: skewX(20deg);
+    transform: skewX(20deg);  
+    display: inline-block;
+      
 }

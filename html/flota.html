@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Iceland&family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Iceland&family=Jost:ital,wght@0,100..900;1,100..900&family=Oswald:wght@300&display=swap"
+        rel="stylesheet">
+        <script src="https://kit.fontawesome.com/88e914fd20.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../styles/style.css">
+    <title>Flota</title>
+</head>
+
+<body class="bg-black">
+
+    <nav class="flex flex-col md:flex-row items-center md:justify-between p-3 bg-black text-white text-[24px]">
+        <div class="flex flex-row items-center justify-between w-full lg:w-1/2">
+            <div>
+            <a href="home.html" class="text-start"><img class="w-30" src="../img/Logo.svg" alt="logo"></a>
+            </div>
+            <div class="md:hidden">
+                <button onclick="toggleMenu()" class="text-white focus:outline-none">
+                    <i class="fa-solid fa-bars text-white text-[24px]"></i> <i class="fa-solid fa-xmark text-white text-[24px] hidden"></i>
+                </button>
+            </div>
+
+        </div>
+
+        <div class="hidden md:flex flex-row flex-col gap-20 menu-items">
+            <div class="flex flex-col gap-9 md:flex-row md:flex gap-9">
+                <a href="../html/home.html">Home</a>
+                <a href="../html/reserva.html">Reserva</a>
+                <a href="../html/flota.html">Flota</a>
+                <a href="../html/faq.html">FAQ</a>
+                <a href="../html/about-us.html">About us</a>
+                <div>
+                    <a class="bg-white hover:bg-blue-700 text-black font-bold py-2 px-4 rounded" href="#">Acceso</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="text-[24px]">
+
+        <div class="flex flex-col lg:flex-row">
+
+            <img class="w-full h-full lg:w-3/5 order-2 lg:order-1 responsive" src="../img/flota/DragonGif.gif" alt="Dragon nave">
+
+            <div class="w-full lg:w-2/5 bg-black text-white p-4 order-1 lg:order-2 py-10 pr-20 flex flex-col justify-center items-center lg:items-end">
+                    
+                
+                <h1 class="text-4xl  font-bold">DRAGON</h1>
+                <p class="text-[24px]  ">Altura 8.1m</p>
+                <p>Diámetro 4m</p>
+                <p>Volumen de espacio 9.3mc</p>
+                <p>Peso 6000kg</p>
+                <p>Velocidad 300.000km/h</p>
+
+                <br>
+                                
+                <h1 class="text-4xl   font-bold">¿Qué ofrecemos?</h1>
+                <p>Viaje a la luna básico</p>
+                <p>Servicio de cátering básico</p>
+                <p>Experiencia extraespacial con traje</p>
+                <p>para poder andar sobre la luna</p>
+                <p>Precio<span style="color: blueviolet;">150.000.000€</span></p>
+                
+
+            </div>
+                
+        </div>
+
+        <div class="flex flex-col lg:flex-row">
+
+            <div class="w-full lg:w-2/5 bg-black text-white order-1 lg:order-1 flex flex-col pl-20 py-10 justify-center items-center lg:items-start">
+                <h1 class="text-4xl font-bold  ">FALCON HEAVY</h1>
+                <p>Altura 70.0m</p>
+                <p>Peso 1440788kg</p>
+                <p>Velocidad 500.000km/h</p>
+
+                <br>
+
+                <h1 class="text-4xl text-left  lg:font-bold">¿Qué ofrecemos?</h1>
+                <p>Viaje a la luna con múltiples excursiones</p>
+                <p>Servicio todo incluído (comida/bebida)</p>
+                <p>MoonParty</p>
+                <p>Precio<span style="color: blueviolet;">50.000.000€</span></p>
+            </div>
+
+
+            <img class="w-full h-full lg:w-3/5 order-2 lg:order-2" src="../img/flota/FalconHeavy.png"
+                alt="Falcon Heavy nave">
+        </div>
+
+        <div class="flex flex-col lg:flex-row">
+
+            <img class="w-full h-full lg:w-3/5 order-2 lg:order-1" src="../img/flota/Falcon9.gif"
+                alt="Falcon 9 nave">
+
+
+            <div class="w-full lg:w-2/5 bg-black text-white p-4 order-1 lg:order-2 flex flex-col pr-20 py-10 justify-center items-center lg:items-end">
+                <h1 class="text-4xlfont-bold">Falcon 9</h1>
+                <p>Altura 70.0</p>
+                <p>Diámetro 3.7m</p>
+                <p>Peso 549054kg</p>
+                <p>Velocidad 1.000.000km/h</p>
+
+                <br>
+
+                <h1 class="text-4xl   font-bold">¿Qué ofrecemos?</h1>
+                <p>Viaje a marte</p>
+                <p>Experiencia con marcianos</p>
+                <p>Menú degustación preparado por un chef nativo de marte</p>
+                <p>MartianParty</p>
+                <p>Precio<span style="color: blueviolet;">1.000.000.000€</span></p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="flex flex-col justify-center m-0 items-center text-white bg-black pt-3 pb-3 w-full">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 items-center border-b-2 border-white pb-1 ">
+
+            <div class="col-span-1 text-center md:order-2">
+                <div class="mb-2 jost">ASTRO</div>
+                <div class="mb-2 jost">ADVENTURES</div>
+            </div>
+
+            <div class="flex col-span-1 md:order-1 justify-around">
+                <a href="" class="block mx-8 ">Home</a>
+                <a href="" class="block mx-8">Flota</a>
+                <a href="" class="block mx-8">Servicios</a>
+            </div>
+
+            <div class="flex col-span-1 md:order-3 justify-around">
+                <a href="" class="block mx-8">FAQ</a>
+                <a href="" class="block mx-8">Legal</a>
+                <a href="" class="block mx-8">About us</a>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 gap-4 items-center pt-4">
+
+            <div class="col-span-1 text-center">
+                <div class="flex justify-center">
+                    <i
+                        class="fa-brands fa-x-twitter mx-2 border-solid border-2 border-white rounded-full p-2 bg-white w-10 h-10 text-[#000000]"></i>
+                    <i
+                        class="fa-brands fa-facebook-f mx-2 border-solid border-2 border-white rounded-full p-2 bg-white w-10 h-10 text-[#000000]"></i>
+                    <i
+                        class="fa-brands fa-instagram mx-2 border-solid border-2 border-white rounded-full p-2 bg-white w-10 h-10 text-[#000000]"></i>
+                </div>
+                <p class="pt-3 text-[14px]">2010-2020 Privacy-Terms</p>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="../js/myscript.js"></script>
+
+</body>
+
+</html>

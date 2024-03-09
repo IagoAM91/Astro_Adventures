@@ -1,0 +1,125 @@
+/*FONTS*/
+
+body {
+    font-family: "Iceland", monospace;
+    font-optical-sizing: auto;
+    font-size: 20px;
+    min-height: 100vh;
+}
+
+
+.jost{
+    font-family: "Jost", monospace;
+    font-optical-sizing: auto;
+    font-weight: 700;
+
+}
+
+/*HOME*/
+
+.bg-home{
+    background: rgb(0, 0, 0);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 39%, rgba(57, 1, 177, 1) 100%);
+}
+
+/*ABOUT US*/
+
+.history{
+    background-image: url(../img/about-us/fondos/Group17.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: contain;
+}
+
+h1, h2{
+    font-family: "Jost", sans-serif;
+}
+
+
+.valores{
+    background-image: url(../img/about-us/fondos/SateliteFondo.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+
+.valores span{
+    font-family: "Jost", sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+    
+    .history{
+        background-image: url(../img/about-us/fondos/queryFondo.png);
+        background-repeat: no-repeat;
+        background-position:center;
+        background-size: contain;
+    }
+
+    .valores{
+        background-image: url(../img/about-us/fondos/SaliteResponsive.png);
+        background-repeat: no-repeat;
+        background-position:center;
+        background-size: contain;
+    }
+}
+
+/*RESERVA*/
+
+.form1{
+    background-image: url(../img/reserva/nave_fondo.png);
+    background-size:cover;
+    background-position: center; 
+}
+
+.form2{
+    background-image: url(../img/reserva/fondo_estrellas.jpg);
+    background-size:cover;
+    background-position: center; 
+}
+
+.form3{
+    background-image: url(../img/reserva/fondo_form3.jpg);
+    background-size:cover;
+    background-position: center; 
+}
+
+.btn-reserva{
+  
+    clip-path: polygon(100% 0, 100% 60%, 90% 100%, 0 100%, 0 0); 
+    background: linear-gradient(137deg, #9259a6 0%, rgba(112,2,251,1) 100%) !important; 
+      
+}
+
+/*FAQ*/
+
+.bodyfaq {
+    background-image: url(../img/faq/space.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: relative;
+    flex: 1;
+}
+
+.acordeon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.respuesta-acordeon {
+    padding: 10px; 
+    border: 1px solid #4a5568; 
+    border-top: none; 
+    background-color: #1a202c; 
+    color: white;
+    
+}
+
+/*FLOTA*/
+
+.responsive{
+  max-width: 100%;
+  height: 100%;
+}
+

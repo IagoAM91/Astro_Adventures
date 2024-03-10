@@ -19,11 +19,13 @@ function mostrarFormularioAcceso() {
     
     menuItems.classList.toggle('hidden');
     document.getElementById('formularioAcceso').style.display = 'flex';
+    document.getElementById('menuItems').style.display = 'none';
 }
 
 function ocultarFormularioAcceso() {
     menuItems.classList.toggle('hidden');
     document.getElementById('formularioAcceso').style.display = 'none';
+    document.getElementById('menuItems').style.display = 'flex';
 }
 
 

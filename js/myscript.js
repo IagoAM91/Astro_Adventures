@@ -1,3 +1,5 @@
+/**NAVBAR */ 
+
 function toggleMenu() {
     var menuItems = document.querySelector('.menu-items');
     menuItems.classList.toggle('hidden');
@@ -9,17 +11,21 @@ function toggleMenu() {
     var hamburguer = document.querySelector('.fa-solid.fa-bars');           
     hamburguer.classList.toggle('hidden');
 
+    document.getElementById('formularioAcceso').style.display = 'none';
+
 }
 
 function mostrarFormularioAcceso() {
-    document.getElementById('menuItems').style.display = 'none';
+    
+    menuItems.classList.toggle('hidden');
     document.getElementById('formularioAcceso').style.display = 'flex';
 }
 
 function ocultarFormularioAcceso() {
-    document.getElementById('menuItems').style.display = 'flex';
+    menuItems.classList.toggle('hidden');
     document.getElementById('formularioAcceso').style.display = 'none';
 }
+
 
 function redirectReserva2() {
 
@@ -33,7 +39,7 @@ window.location.href = "reserva3.html";
  
 }
 
-
+/*FAQ*/
 function toggleAccordion(accordionNumber) {
     var accordionBody = document.getElementById('accordion-collapse-body-' + accordionNumber);
     accordionBody.classList.toggle('hidden');

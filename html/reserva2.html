@@ -39,11 +39,11 @@
             </div>
         </div>
     
-        <div id="formularioAcceso" class="hidden gap-3 rounded-lg">
+        <div id="formularioAcceso" class="hidden flex-col md:flex-row gap-3">
             <input type="text" placeholder="  Nombre de usuario">
             <input type="password" placeholder="  Contraseña">
             <input type="submit" class="bg-white hover:bg-blue-700 text-black font-bold px-2 rounded" value="Ingresar">
-            <a href="#" onclick="ocultarFormularioAcceso()"><i class="fa-solid fa-xmark text-white text-[24px]"></i></a>
+            <a href="#" onclick="ocultarFormularioAcceso()" class="text-end">Volver</a>
         </div>
     </nav>
 
@@ -54,7 +54,7 @@
                 <div>CABINA PREMIUM</div>
                 <div>X1</div>
            </div>
-           
+           menuItems.classList.toggle('hidden');
            <div class="py-10 text-center border-indigo-700 shadow-lg shadow-[#9259a6] text-[30px] lg:text-[40px]">
                 1.000.000.000$
            </div>     

@@ -16,16 +16,17 @@ function toggleMenu() {
 }
 
 function mostrarFormularioAcceso() {
-    
-    menuItems.classList.toggle('hidden');
+
     document.getElementById('formularioAcceso').style.display = 'flex';
-    document.getElementById('menuItems').style.display = 'none';
+    menuItems.classList.toggle('md:hidden');
+    menuItems.classList.toggle('hidden');
 }
 
 function ocultarFormularioAcceso() {
     menuItems.classList.toggle('hidden');
+    menuItems.classList.toggle('md:hidden');
     document.getElementById('formularioAcceso').style.display = 'none';
-    document.getElementById('menuItems').style.display = 'flex';
+  
 }
 
 

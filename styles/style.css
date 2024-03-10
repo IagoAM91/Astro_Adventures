@@ -87,8 +87,11 @@ h1, h2{
 .btn-reserva{
   
     clip-path: polygon(100% 0, 100% 60%, 90% 100%, 0 100%, 0 0); 
-    background: linear-gradient(137deg, #9259a6 0%, rgba(112,2,251,1) 100%) !important; 
-      
+    background: linear-gradient(137deg, #9259a6 0%, rgba(112,2,251,1) 100%) !important;    
+}
+
+.form-opacity{
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 /*FAQ*/

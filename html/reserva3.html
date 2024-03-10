@@ -48,20 +48,20 @@
     </nav>
 
 
-    <section class="form3 flex flex-1 items-center justify-center py-5">
+    <div class="form3 flex flex-1 items-center justify-center py-5">
               
-        <form action="" class="form-opacity flex flex-col px-5 text-white text-center rounded-lg shadow-lg "> 
+        <form class="form-opacity flex flex-col px-5 text-white text-center rounded-lg shadow-lg "> 
 
         <div class="flex flex-col md:flex-row  md:justify-between">
             
             <div class="flex flex-col md:justify-center md:px-5">
                 <label for="nombre" class="pt-5">Nombre</label>
-                <input type="text" name="nombre" class="py-2 rounded-lg border border-white bg-gray-700">
+                <input type="text" name="nombre" id="nombre" class="py-2 rounded-lg border border-white bg-gray-700">
             </div>
 
             <div class="flex flex-col md:justify-center md:items-center md:px-5">
                 <label for="apellido" class="pt-5">Apellido</label>
-                <input type="text" name="apellido" class="py-2 rounded-lg border border-white bg-gray-700">
+                <input type="text" name="apellido" id="apellido" class="py-2 rounded-lg border border-white bg-gray-700">
             </div>
             
         </div>  
@@ -70,20 +70,18 @@
             
             <div class="flex flex-col md:justify-center md:px-5">
                 <label for="email" class="pt-5">Email</label>
-                <input type="text" name="email" class="py-2 rounded-lg border border-white bg-gray-700">
+                <input type="text" name="email" id="email" class="py-2 rounded-lg border border-white bg-gray-700">
             </div>
 
             <div class="flex flex-col md:justify-center md:items-center md:px-5">
                 <label for="telefono" class="pt-5">Teléfono</label>
-                <input type="text" name="telefono" class="py-2 rounded-lg border border-white bg-gray-700">
+                <input type="text" name="telefono" id="telefono" class="py-2 rounded-lg border border-white bg-gray-700">
             </div>
             
         </div>  
-        
-        </div>  
 
             <label for="mensaje" class="pt-5">Mensaje</label>
-            <textarea name="mensaje" cols="30" rows="5" class="py-2 rounded-lg border border-black bg-gray-700 border border-white bg-gray-700"></textarea>  
+            <textarea name="mensaje" cols="30" rows="5" id="mensaje" class="py-2 rounded-lg border border-black bg-gray-700 border border-white bg-gray-700"></textarea>  
 
             <div class="py-5">
                  <button type="submit" class="btn-reserva py-3 px-20 text-white">RESERVAR</button>
@@ -91,7 +89,7 @@
         
         </form>
 
-    </section>
+    </div>
 
     <footer class="flex flex-col justify-center items-center text-white bg-black pt-3 pb-3 w-full">           
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4 items-center border-b-2 border-white pb-1 ">

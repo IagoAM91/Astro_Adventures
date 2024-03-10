@@ -48,22 +48,22 @@
     </nav>
 
 
-    <section class="form1 flex flex-1 flex-col justify-center">
+    <div class="form1 flex flex-1 flex-col justify-center">
               
-        <form action="" class="flex flex-col justify-center items-center h-full pt-10" > 
+        <form class="flex flex-col justify-center items-center h-full pt-10" > 
 
             <div class=" w-1/2 lg:w-4/5 bg-gray-400 opacity-70 py-10 rounded-lg">
 
                 <div class="flex flex-col items-center justify-center text-[24px] h-full lg:flex-row lg:justify-between lg:items-center">
-
+                    
                     <div class="p-2 lg:p-0 flex flex-col md:flex-row md:items-center">
                         <label for="destino" class="px-3 rounded-lg">Destino</label>
                         <div>
-                            <button type="button" class="rounded-lg border border-black p-2 hover:bg-fuchsia-600" aria-label="Destino luna">
+                            <button type="button" id="destino1" class="rounded-lg border border-black p-2 hover:bg-fuchsia-600" aria-label="Destino luna">
                                 <i class="fas fa-moon text-[30px] px-2 pt-1 "></i>
                             </button>   
 
-                            <button type="button" class="rounded-lg border border-black p-2 hover:bg-fuchsia-600" aria-label="Destino marte">
+                            <button type="button" id="destino2" class="rounded-lg border border-black p-2 hover:bg-fuchsia-600" aria-label="Destino marte">
                                 <i class="fa-solid fa-meteor text-[30px] px-1 pt-1"></i>
                             </button>   
                         </div>
@@ -96,9 +96,7 @@
 
         </form>
    
-     
-
-    </section>
+    </div>
 
     <footer class="flex flex-col justify-center items-center text-white bg-black pt-3 pb-3 w-full">           
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4 items-center border-b-2 border-white pb-1 ">

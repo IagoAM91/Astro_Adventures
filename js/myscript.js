@@ -11,6 +11,16 @@ function toggleMenu() {
 
 }
 
+function mostrarFormularioAcceso() {
+    document.getElementById('menuItems').style.display = 'none';
+    document.getElementById('formularioAcceso').style.display = 'flex';
+}
+
+function ocultarFormularioAcceso() {
+    document.getElementById('menuItems').style.display = 'flex';
+    document.getElementById('formularioAcceso').style.display = 'none';
+}
+
 function redirectReserva2() {
 
 window.location.href = "reserva2.html";
